@@ -21,9 +21,9 @@ function AuthNavBar() {
             </h5></Navbar.Brand>
               <Nav className="nav-item" >
                 <Nav.Link href="/">Login</Nav.Link>
-                <Nav.Link href="/signup/user">SignUp</Nav.Link>
-                <Nav.Link href="/adminSignIn">Login as Admin</Nav.Link>
-                <Nav.Link href="/signup/admin">SignUp as Admin</Nav.Link>
+                <Nav.Link  onClick={() => history.push("/signup/user")}>SignUp</Nav.Link>
+                <Nav.Link   onClick={() => history.push("/adminSignIn")} >Login as Admin</Nav.Link>
+                <Nav.Link  onClick={() => history.push("/signup/admin")}>SignUp as Admin</Nav.Link>
               
               </Nav>
               <Nav >
