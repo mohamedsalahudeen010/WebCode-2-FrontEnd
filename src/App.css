@@ -1,0 +1,529 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.App {
+  width: 100vw;
+  text-align: center;
+  margin-left: auto;
+  min-height: 100vh;
+  background-color: rgba(30, 84, 136, 0.749);
+  background-image: linear-gradient(
+    rgb(244, 242, 233),
+    rgba(30, 84, 136, 0.749)
+  );
+}
+
+.fa-plus-square {
+  color: rgb(19, 234, 19);
+  margin: 0.5rem;
+}
+.fa-minus-square {
+  color: rgb(248, 3, 20);
+  margin: 0.5rem;
+}
+.fa-trash {
+  color: rgb(248, 3, 20);
+  margin: 0.5rem;
+}
+
+.cart-image > img {
+  border-radius: 1rem;
+  margin-left: 5rem;
+}
+
+.pizza-card {
+  width: 30%;
+  height: 25rem;
+  margin: 1rem;
+}
+
+.card_btn {
+  padding: 0.2rem 1rem;
+  border-radius: 0.3rem;
+  background-color: rgb(210, 50, 50);
+  color: whitesmoke;
+}
+
+.container {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+.pizza-logo-left {
+  float: left;
+  mix-blend-mode: color-burn;
+  margin-left: 4rem;
+  width: 12rem;
+  height: 12rem;
+}
+.pizza-logo-right {
+  float: right;
+  mix-blend-mode: inherit;
+  width: 12rem;
+  height: 12rem;
+}
+.pizza-logo {
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+  margin-left: 1rem;
+  width: 4rem;
+  height: 4rem;
+}
+.shopName {
+  color: rgb(229, 29, 29);
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+.nav-img{
+  width: 2rem;
+  height: 2rem;
+}
+.nav-right {
+  float: right;
+}
+.btn-pay {
+  background-color: rgb(200, 39, 39);
+  color: whitesmoke;
+  margin-top: 2rem;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem black;
+}
+.nav-item > a {
+  color: rgb(95, 170, 52);
+ font-size: 1.5rem;
+}
+.cart {
+  margin-left: 2rem;
+}
+
+.main-logo {
+  display: grid;
+  grid-template-columns: 2fr 6fr 2fr;
+}
+.flex-container {
+  display: flex !important;
+}
+
+.navbar {
+  width: 100vw;
+  height: 15vh;
+  background-color: rgb(7, 49, 57);
+  color: rgb(95, 170, 52) ;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1rem;
+}
+
+.side-nav {
+  background-color: rgba(109, 18, 37, 0.576);
+  min-height: 100vh;
+  display: none;
+}
+.navbar-brand > img {
+  width: 2rem;  
+  height: 2rem;
+  margin-left: 0.1rem;
+}
+
+.title {
+  margin-top: 2rem;
+  font-size:3rem;
+}
+img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.input {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.7rem;
+  border-radius: 0.2rem;
+  width: 90rem;
+}
+
+.form {
+  align-items: center;
+  border: 5px solid rgba(249, 247, 247, 0.498);
+  width: 50%;
+  margin: auto;
+  padding: 4rem 2rem;
+  background-image: linear-gradient(
+    135deg,
+    rgb(212, 205, 164),
+    silver,
+    rgb(122, 114, 149)
+  );
+  box-shadow: 0.5rem 0.5rem 0.5rem black;
+  border-radius: 1rem;
+}
+.form-signup {
+  align-items: center;
+  border: 5px solid rgba(249, 247, 247, 0.498);
+  width:80%;
+  margin: auto;
+  padding: 1rem 2rem;
+  background-image: linear-gradient(
+    135deg,
+    rgb(212, 205, 164),
+    silver,
+    rgb(122, 114, 149)
+  );
+  box-shadow: 0.5rem 0.5rem 0.5rem black;
+  border-radius: 1rem;
+}
+hr {
+  color: black;
+  width: 100%;
+}
+
+.forget-password {
+  text-align: left;
+  color: red;
+  border: none;
+  display: inline-block;
+  margin-top: 1rem;
+}
+.foot {
+  margin-top: 2rem;
+}
+.forget-password:hover {
+  text-decoration: underline;
+}
+.forget-password {
+  text-decoration: none;
+}
+.card-image{
+  border-radius: 2rem;
+  box-shadow: 0.2rem 0.2rem 1rem black;
+  padding: 1rem;
+}
+.signIn-title{
+  margin-top: -5rem;
+  font-size: 2rem;
+}
+.signIn-title-2{
+  font-size: 2rem;
+}
+.img-model{
+  border-radius: 2rem;
+  box-shadow: 0.2rem 0.2rem 1rem black;
+  padding: 1rem;
+  margin-left:4.5rem;
+}
+.login-btn {
+  margin-left: 5rem;
+  background-color: rgb(95, 170, 52);
+  padding: 0.3rem 1.5rem;
+  border-radius: 0.5rem;
+}
+.remember {
+  margin-left: 1rem;
+}
+p {
+  text-align: left;
+  margin: 1rem 8rem;
+}
+p > span > a {
+  color: red;
+  text-decoration: none;
+}
+p > span > a:hover {
+  color: red;
+  text-decoration: underline;
+}
+.footer_Newuser > p {
+  text-align: center;
+}
+
+.footer_Newuser > p > button {
+  border: none;
+  background-color: aliceblue;
+}
+.footer_Newuser > p > button:hover {
+  color: red;
+}
+.Sign_up > p {
+  text-align: center;
+}
+
+.input {
+  width: 50%;
+}
+
+.Sign_up{
+  margin-top: -2rem;
+}
+
+
+.nav-item{
+  font-size: 1.2rem;
+}
+
+.card-main{
+   margin: 1rem;
+   width:30%
+}
+@media only screen and (max-width: 910px) {
+  
+  .title {
+    margin-top: 2rem;
+    font-size:2rem;
+  }
+  .navbar {
+    height: 15vh;
+    
+    padding: 0.8rem;
+  }
+  .pizza-card {
+    width: 70%;
+    height: 23rem;
+    margin: 1rem;
+  }
+
+  .pizza-logo-left {
+    float: left;
+    mix-blend-mode: color-burn;
+    margin-left: 1rem;
+    width: 10rem;
+    height: 10rem;
+  }
+  .pizza-logo-right {
+    float: right;
+    mix-blend-mode: inherit;
+    width: 10rem;
+    height: 10rem;
+  }
+  .pizza-logo {
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    width: 3.5rem;
+    height: 3.5rem;
+
+  }
+
+  .shopName {
+    color: rgb(229, 29, 29);
+    margin-left: 1.8rem;
+    font-size: 1.8rem;
+  }
+  .nav-img{
+    width: 2rem;
+    height: 2rem;
+  }
+  .signIn-title{
+    margin-top: -4rem;
+    font-size: 1.6rem;
+  }
+  .signIn-title-2{
+    font-size: 1.6rem;
+  }
+
+.nav-item > a {
+ font-size: 1rem;
+}
+}
+
+@media only screen and (max-width: 700px) {
+  
+  .title {
+    margin-top: 2rem;
+    font-size:1.7rem;
+  }
+  .navbar {
+    height: 15vh;
+    
+    padding: 0.8rem;
+  }
+  .card-main{
+    margin: 1rem;
+    width:50%
+ }
+  .pizza-card {
+    width: 70%;
+    height: 20rem;
+    margin: 1rem;
+  }
+
+  .pizza-logo-left {
+    float: left;
+    mix-blend-mode: color-burn;
+    margin-left: 0rem;
+    width: 9rem;
+    height: 9rem;
+  }
+  .pizza-logo-right {
+    float: right;
+    mix-blend-mode: inherit;
+    width: 9rem;
+    height: 9rem;
+  }
+  .pizza-logo {
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    width: 3rem;
+    height: 3rem;
+
+  }
+
+  .shopName {
+    color: rgb(229, 29, 29);
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+  }
+  .nav-img{
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .signIn-title{
+    margin-top: -3rem;
+    font-size: 1.4rem;
+  }
+  .signIn-title-2{
+    font-size: 1.4rem;
+  }
+
+  .shopName{
+    font-size: 1rem;
+   
+  }
+  .nav-item > a {
+    font-size: 0.8rem;
+   }
+  
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+  .title {
+    margin-top: 2rem;
+    font-size:1rem;
+  }
+  .navbar {
+    height: 15vh;
+    
+    padding: 0.8rem;
+  }
+  .pizza-card {
+    width: 70%;
+    height: 18rem;
+    margin: 1rem;
+  }
+
+  .pizza-logo-left {
+    float: left;
+    mix-blend-mode: color-burn;
+    margin-left: 0rem;
+    width: 6rem;
+    height: 6rem;
+  }
+  .pizza-logo-right {
+    float: right;
+    mix-blend-mode: inherit;
+    width: 6rem;
+    height: 6rem;
+  }
+  .pizza-logo {
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    width: 3rem;
+    height: 3rem;
+    display: none;
+  }
+
+  .shopName {
+    color: rgb(229, 29, 29);
+    margin-left: 0.2rem;
+    font-size: 0.8rem;
+  }
+  .nav-img{
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .signIn-title{
+    margin-top: -2rem;
+    font-size: 1.2rem;
+  }
+  .signIn-title-2{
+    font-size: 1.2rem;
+  }
+
+  .shopName{
+    font-size: 0.8rem;
+   
+  }
+  .nav-item > a {
+    font-size: 0.6rem;
+   }
+}
+
+
+@media only screen and (max-width: 350px) {
+  
+  .title {
+    margin-top: 2rem;
+    font-size:1rem;
+  }
+  .navbar {
+    height: 15vh;
+    
+    padding: 0.8rem;
+  }
+  .pizza-card {
+    width: 12rem;
+    height: 18rem;
+    margin: 1rem;
+  }
+
+  .pizza-logo-left {
+    float: left;
+    mix-blend-mode: color-burn;
+    margin-left: 0rem;
+    width: 3rem;
+    height: 3rem;
+  }
+  .pizza-logo-right {
+    float: right;
+    mix-blend-mode: inherit;
+    width: 3rem;
+    height: 3rem;
+  }
+  .pizza-logo {
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    width: 3rem;
+    height: 3rem;
+    display: none;
+  }
+
+  .shopName {
+   
+    margin-left: 0.3rem;
+    font-size: 0.5rem;
+    display: none;
+  }
+  .nav-img{
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .signIn-title{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+  }
+  .signIn-title-2{
+    font-size: 1.2rem;
+  }
+ 
+  .nav-item > a {
+    font-size: 0.6rem;
+   }
+
+}
