@@ -82,7 +82,7 @@ const SignUpPageAdmin = () => {
       </div>
 
       <div className="Sign_up">
-      <h2 className="signIn-title">User SignIn Page</h2>
+      <h2 className="signIn-title">Admin SignUp Page</h2>
         <h1 className="signIn-title-2">Register</h1>
 
         <form onSubmit={handleSubmit} className="form-signup">
