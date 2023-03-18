@@ -83,14 +83,15 @@ const SignUpPageUser = () => {
       <div className="Sign_up">
       <h2 className="signIn-title">User SignUp Page</h2>
         <h1 className="signIn-title-2" >Register</h1>
-       {logInButton?<div>
+     
+
+        <form onSubmit={handleSubmit} className="form-signup">
+      {logInButton?<div>
             <div> <Alert variant="success" >
-          Successfully SigneUp, Click Button to LogIn
+          Successfully SignedUp, Click Button to LogIn
         </Alert></div>
         <Button variant="danger" onClick={()=>{history.push("/")}}>Click to Login</Button>
           </div>:""}
-
-        <form onSubmit={handleSubmit} className="form-signup">
           <div>
             <input
               className="input"
