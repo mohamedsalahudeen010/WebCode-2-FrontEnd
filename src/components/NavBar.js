@@ -26,7 +26,7 @@ function NavBar({user,setUser}) {
 <div className="nav-main">
 <Navbar className="navbar">
         
-          <Navbar.Brand href="#home" > <h5
+          <Navbar.Brand  > <h5
           className="shopName"
           onClick={() => history.push("/main")}
         >
@@ -38,7 +38,7 @@ function NavBar({user,setUser}) {
           ></img>
         </h5></Navbar.Brand>
           <Nav className="nav-item" >
-            <Nav.Link href="/main">Home</Nav.Link>
+            <Nav.Link  onClick={() => history.push("/main")}>Home</Nav.Link>
             <Nav.Link  onClick={()=>{logOutMethod()}}>LogOut</Nav.Link>
           
           </Nav>
