@@ -8,7 +8,7 @@ function AuthNavBar() {
     <div className="nav-main">
     <Navbar className="navbar">
             
-              <Navbar.Brand href="#home" > <h5
+              <Navbar.Brand > <h5
               className="shopName"
               onClick={() => history.push("/main")}
             >
