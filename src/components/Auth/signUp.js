@@ -81,8 +81,14 @@ const SignUpPageUser = () => {
       </div>
 
       <div className="Sign_up">
-      <h2 className="signIn-title">Admin SignUn Page</h2>
+      <h2 className="signIn-title">User SignUp Page</h2>
         <h1 className="signIn-title-2" >Register</h1>
+       {logInButton?<div>
+            <div> <Alert variant="success" >
+          Successfully SigneUp, Click Button to LogIn
+        </Alert></div>
+        <Button variant="danger" onClick={()=>{history.push("/")}}>Click to Login</Button>
+          </div>:""}
 
         <form onSubmit={handleSubmit} className="form-signup">
           <div>
@@ -164,12 +170,7 @@ const SignUpPageUser = () => {
           ) : (
             ""
           )}
-          {logInButton?<div>
-            <div> <Alert variant="success" >
-          Successfully SigneUp, Click Button to LogIn
-        </Alert></div>
-        <Button variant="danger" onClick={()=>{history.push("/")}}>Click to Login</Button>
-          </div>:""}
+       
           <div className="remember">
             <input type="checkbox" name="" id=" remember"></input>
             <label htmlFor="remember" className="remember_label">
