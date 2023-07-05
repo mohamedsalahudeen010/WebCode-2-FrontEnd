@@ -86,6 +86,9 @@ const AdminSignIn = () => {
         <div>
         <h2 className="signIn-title">Admin SignIn Page</h2>
           <form onSubmit={handleSubmit} className="form">
+             <div><span>AdminId : admin123@gmail.com</span> || 
+            
+            <span>password : admin12345</span></div>
             <div>
               <input
                 className="input"
